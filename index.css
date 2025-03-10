@@ -1,1 +1,24 @@
-.contenedor{display: grid;}
+.contenedor{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.columna1{
+    display:grid;
+    background-color: lightcoral;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.columna2{
+    display: grid;
+    background-color: aquamarine;
+}
+.cuadro{
+    width: 200px;
+    height: 100px;
+    line-height: 100px;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: 0,3s;
+}

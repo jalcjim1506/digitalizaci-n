@@ -1,0 +1,1 @@
+let columna1 = document.getElementById("columna1");
