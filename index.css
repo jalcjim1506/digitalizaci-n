@@ -21,4 +21,9 @@
     margin: 10px;
     border-radius: 10px;
     transition: 0,3s;
+    text-align: center;
+}
+.tarjeta{
+    display: grid;
+grid-template-columns: 1fr;
 }
